@@ -4,9 +4,11 @@
 		}
 		section{
 			width: 100%;
-			height: 100vh;
-			background: #000;
+			height: 100%;
+			background-color: white;
+
 		}
+
 h1
 {
 	position: absolute;
@@ -29,10 +31,10 @@ h1:before
 	left: 0;
 	width: 100%;
 	height: 100%;
-	color: #40D3DC;;
+	color: darkorange;;
 	overflow: hidden;
-	border-right: 1px solid #000;
-	animation: typing 10s steps(25)infinite;
+	
+	animation: typing 12s steps(25)infinite;
 	white-space: nowrap;
 	font-size: 14px;
 	
